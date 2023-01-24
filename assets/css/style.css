@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #1d2023;
+  overflow: hidden;
+  overflow-y: auto;
+}
+header {
+  background-color: #262b32;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 80px;
+}
+#titulo-do-header {
+  position: absolute;
+  left: 137px;
+  top: 19px;
+  font-size: 38px;
+  color: rgba(255, 255, 255, 0.3);
+  border: solid #3e4750;
+  border-width: 0px 0px 0px 2px;
+  padding: 3px 0 3px 24px;
+}
+#imagem-mla {
+  margin: 5px 18px 5px 16px;
+  cursor: pointer;
+}
+.padding_do_botao_home {
+  width: 1280px;
+  height: 80px;
+  display: inline-block;
+  margin: 0 32px;
+}
+#imagem-casa {
+  margin: 27px 0 27px;
+  cursor: pointer;
+}
+.botoes-imagens {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+}
+.Icones {
+  display: inline-block;
+  background-color: #30373e;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.menu {
+  padding: 13px 10px 12.44px;
+  margin: 16px;
+  background: #30373e;
+}
+.energia {
+  padding: 7.5px 15px;
+  margin: 16px 0;
+  background: #30373e;
+}
+.notficacao {
+  padding: 9.75px 12px 9px;
+  margin: 16px 39px 16px 16px;
+  background: #30373e;
+}
+.lateral-esq {
+  position: absolute;
+  width: 228px;
+  height: 529px;
+  margin: 0 23px 0 32px;
+  padding-bottom: 61px;
+}
+#Geracao {
+  position: relative;
+  margin: 0;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.caixa-info {
+  position: relative;
+  width: 228px;
+  height: 98px;
+  border-radius: 6px;
+  background: #30373e;
+  margin-top: 16px;
+}
+.contagem-de-tempo {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 16px;
+  position: absolute;
+  margin-left: 22px;
+  margin-top: 19px;
+}
+.valoes {
+  position: absolute;
+  margin: 42px 114px 14px 22px;
+  color: rgba(221, 221, 221, 0.87);
+  font-size: 36px;
+}
+.unidade_de_medida {
+  position: absolute;
+  margin: 56px 43px 14px 122px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.unidade_de_medida_2 {
+  position: absolute;
+  margin: 56px 84px 14px 81px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+#Consumo {
+  position: relative;
+  margin-top: 26px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
